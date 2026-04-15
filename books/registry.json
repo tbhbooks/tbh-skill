@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "registry_url": "https://raw.githubusercontent.com/tbhbooks/tbhbooks-skill/main/books/registry.json",
+  "books": [
+    {
+      "id": "agents",
+      "title": "The Builder's Handbook: Agents That Think and Self-Improve",
+      "description": "Build tbh-code — a CLI coding agent from scratch across 15 chapters. Starts as a one-shot prompt wrapper and evolves into a multi-agent swarm.",
+      "status": "draft",
+      "total_chapters": 15,
+      "default_language": "python",
+      "repo": "https://github.com/tbhbooks/Agents-That-Think-and-Self-Improve",
+      "raw_base": "https://raw.githubusercontent.com/tbhbooks/Agents-That-Think-and-Self-Improve/main",
+      "spec_path": "spec",
+      "chapters_path": "chapters"
+    }
+  ]
+}
