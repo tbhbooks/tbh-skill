@@ -1,8 +1,12 @@
 {
-  "name": "tbhbooks",
+  "name": "the-builders-handbook",
   "description": "Build-along companion for The Builder's Handbook (TBH) book series. Guides readers through building real systems chapter by chapter with specs, validation, hints, and progress tracking.",
   "version": "1.0.0",
   "author": {
-    "name": "TBH Books"
-  }
+    "name": "Rushit Patel"
+  },
+  "homepage": "https://github.com/tbhbooks/tbh-skill",
+  "repository": "https://github.com/tbhbooks/tbh-skill",
+  "license": "MIT",
+  "keywords": ["agents", "coding", "builder", "handbook", "tbh", "learn-by-building"]
 }

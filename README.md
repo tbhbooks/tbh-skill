@@ -1,4 +1,4 @@
-# tbh — The Builder's Handbook (TBH): Build-Along Companion for Claude
+# The Builder's Handbook (TBH): Build-Along Companion for Claude
 
 A Claude Code plugin that guides you through building real systems alongside [The Builder's Handbook](https://github.com/tbhbooks) book series.
 
@@ -9,7 +9,7 @@ tbh, you should build it yourself — and this plugin makes sure you can.
 ```bash
 # In Claude Code:
 /plugin marketplace add tbhbooks/tbh-skill
-/plugin install tbhbooks
+/plugin install the-builders-handbook@the-builders-handbook
 ```
 
 Or load locally for development:
@@ -20,26 +20,26 @@ claude --plugin-dir ./tbh/tbhbooks-skill
 ## Quick Start
 
 ```
-/tbh:setup                    # Pick a book, set your language
-/tbh:build-chapter            # Start building the current chapter
-/tbh:validate                 # Run tests against your implementation
-/tbh:hint                     # Get a nudge when you're stuck
-/tbh:next                     # See what's next
+/the-builders-handbook:setup            # Pick a book, set your language
+/the-builders-handbook:build-chapter    # Start building the current chapter
+/the-builders-handbook:validate         # Run tests against your implementation
+/the-builders-handbook:hint             # Get a nudge when you're stuck
+/the-builders-handbook:next             # See what's next
 ```
 
 ## All Commands
 
 | Command | What it does |
 |---------|-------------|
-| `/tbh:setup` | Pick a book, set language, initialize environment |
-| `/tbh:switch` | Switch between TBH books (preserves progress) |
-| `/tbh:status` | Show active book + chapter progress |
-| `/tbh:build-chapter [N]` | Start/continue a chapter's build |
-| `/tbh:validate [N]` | Run chapter validation tests |
-| `/tbh:hint [topic]` | Targeted hint without spoilers |
-| `/tbh:review [N]` | Review implementation against spec |
-| `/tbh:explain <concept>` | Explain a concept grounded in your code |
-| `/tbh:next` | What to do next based on progress |
+| `/the-builders-handbook:setup` | Pick a book, set language, initialize environment |
+| `/the-builders-handbook:switch` | Switch between books (preserves progress) |
+| `/the-builders-handbook:status` | Show active book + chapter progress |
+| `/the-builders-handbook:build-chapter [N]` | Start/continue a chapter's build |
+| `/the-builders-handbook:validate [N]` | Run chapter validation tests |
+| `/the-builders-handbook:hint [topic]` | Targeted hint without spoilers |
+| `/the-builders-handbook:review [N]` | Review implementation against spec |
+| `/the-builders-handbook:explain <concept>` | Explain a concept grounded in your code |
+| `/the-builders-handbook:next` | What to do next based on progress |
 
 ## Available Books
 
@@ -55,7 +55,7 @@ Books are fetched from the [registry](https://github.com/tbhbooks/tbh-skill/blob
 ┌─────────────────────────────────────────────────┐
 │  GitHub (source of truth)                       │
 │                                                 │
-│  tbhbooks/tbh-skill/books/registry.json    │
+│  tbhbooks/tbh-skill/books/registry.json         │
 │    → lists all available books                  │
 │                                                 │
 │  tbhbooks/<book-repo>/spec/ch01/...             │
@@ -77,7 +77,7 @@ Books are fetched from the [registry](https://github.com/tbhbooks/tbh-skill/blob
 └─────────────────────────────────────────────────┘
 ```
 
-1. `/tbh:setup` fetches the book registry from GitHub, lets you pick a book, creates `.tbh/` state
+1. `/the-builders-handbook:setup` fetches the book registry from GitHub, lets you pick a book, creates `.tbh/` state
 2. Every skill fetches the files it needs from GitHub raw URLs, caches them locally
 3. If offline, skills fall back to cached content
 4. Progress is tracked per-book — switch freely without losing state
@@ -90,7 +90,7 @@ Add an entry to `books/registry.json`:
 ```json
 {
   "id": "my-new-book",
-  "title": "TBH: My New Book",
+  "title": "The Builder's Handbook: My New Book",
   "description": "...",
   "status": "draft",
   "total_chapters": 10,
@@ -102,7 +102,7 @@ Add an entry to `books/registry.json`:
 }
 ```
 
-That's it. Every reader's next `/tbh:setup` or `/tbh:switch` will see it.
+That's it. Every reader's next `/the-builders-handbook:setup` or `/the-builders-handbook:switch` will see it.
 
 ## Philosophy
 
