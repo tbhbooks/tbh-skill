@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "tbh",
-      "source": "./",
+      "source": {
+        "source": "github",
+        "repo": "tbhbooks/tbh-skill"
+      },
       "description": "Build-along companion for The Builder's Handbook (TBH) book series. Guides readers through building real systems chapter by chapter with specs, validation, hints, and progress tracking.",
       "author": {
         "name": "Rushit Patel"

@@ -1,7 +1,7 @@
 {
   "name": "tbh",
   "description": "Build-along companion for The Builder's Handbook (TBH) book series. Guides readers through building real systems chapter by chapter with specs, validation, hints, and progress tracking.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Rushit Patel"
   },
