@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "the-builders-handbook",
-      "source": ".",
+      "source": "./",
       "description": "Build-along companion for The Builder's Handbook (TBH) book series. Guides readers through building real systems chapter by chapter with specs, validation, hints, and progress tracking.",
       "version": "1.0.0",
       "author": {
