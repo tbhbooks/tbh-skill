@@ -7,8 +7,8 @@ tbh, you should build it yourself — and this plugin makes sure you can.
 ## Install
 
 ```bash
-# In Claude Code:
-/plugin marketplace add tbhbooks/tbh-skill
+# In Claude Code: Execute following two commands
+/plugin marketplace add tbhbooks/tbh-skill 
 /plugin install tbh@the-builders-handbook
 ```
 
