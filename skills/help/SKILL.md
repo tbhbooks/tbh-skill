@@ -1,6 +1,8 @@
 ---
+name: help
 description: Show all available commands for The Builder's Handbook (TBH) plugin
-disable-model-invocation: true
+allowed-tools: none
+argument-hint: (no arguments)
 ---
 
 List the following commands available in The Builder's Handbook (TBH) plugin. Format as a clean table:
