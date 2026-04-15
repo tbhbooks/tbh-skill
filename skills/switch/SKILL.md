@@ -20,7 +20,7 @@ You are helping a reader switch between TBH books.
 
 3. **Fetch the latest book registry from GitHub:**
    ```bash
-   curl -sf https://raw.githubusercontent.com/tbhbooks/tbhbooks-skill/main/books/registry.json
+   curl -sf https://raw.githubusercontent.com/tbhbooks/tbh-skill/main/books/registry.json
    ```
    This ensures newly added books appear automatically. If fetch fails, use the registry cached in config.
 

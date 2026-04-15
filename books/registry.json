@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "registry_url": "https://raw.githubusercontent.com/tbhbooks/tbhbooks-skill/main/books/registry.json",
+  "registry_url": "https://raw.githubusercontent.com/tbhbooks/tbh-skill/main/books/registry.json",
   "books": [
     {
       "id": "agents",

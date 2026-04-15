@@ -8,7 +8,7 @@ tbh, you should build it yourself — and this plugin makes sure you can.
 
 ```bash
 # In Claude Code:
-/plugin marketplace add tbhbooks/tbhbooks-skill
+/plugin marketplace add tbhbooks/tbh-skill
 /plugin install tbhbooks
 ```
 
@@ -43,7 +43,7 @@ claude --plugin-dir ./tbh/tbhbooks-skill
 
 ## Available Books
 
-Books are fetched from the [registry](https://github.com/tbhbooks/tbhbooks-skill/blob/main/books/registry.json) — new books appear automatically, no plugin update needed.
+Books are fetched from the [registry](https://github.com/tbhbooks/tbh-skill/blob/main/books/registry.json) — new books appear automatically, no plugin update needed.
 
 | Book | Title | Status |
 |------|-------|--------|
@@ -55,7 +55,7 @@ Books are fetched from the [registry](https://github.com/tbhbooks/tbhbooks-skill
 ┌─────────────────────────────────────────────────┐
 │  GitHub (source of truth)                       │
 │                                                 │
-│  tbhbooks/tbhbooks-skill/books/registry.json    │
+│  tbhbooks/tbh-skill/books/registry.json    │
 │    → lists all available books                  │
 │                                                 │
 │  tbhbooks/<book-repo>/spec/ch01/...             │

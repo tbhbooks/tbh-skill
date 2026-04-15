@@ -13,7 +13,7 @@ You are helping a reader set up their TBH (The Builder's Handbook) build-along e
 
 1. **Fetch the book registry from GitHub:**
    ```bash
-   curl -sf https://raw.githubusercontent.com/tbhbooks/tbhbooks-skill/main/books/registry.json
+   curl -sf https://raw.githubusercontent.com/tbhbooks/tbh-skill/main/books/registry.json
    ```
    If fetch fails, fall back to the local `books/registry.json` bundled with this plugin.
    Parse the JSON to get the list of available books.
@@ -35,7 +35,7 @@ You are helping a reader set up their TBH (The Builder's Handbook) build-along e
   "language": "<chosen-language>",
   "chapters_completed": [],
   "current_chapter": 1,
-  "registry_url": "https://raw.githubusercontent.com/tbhbooks/tbhbooks-skill/main/books/registry.json",
+  "registry_url": "https://raw.githubusercontent.com/tbhbooks/tbh-skill/main/books/registry.json",
   "last_registry_fetch": "<ISO timestamp>"
 }
 ```
